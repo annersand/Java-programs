@@ -8,12 +8,12 @@ public class ArrayProgram
    public static void main(String[] args) 
    { 
         // declare and initialize the array with values
-        int[] anArray = {23, 17, 5, 90, 12, 44, 38, 84, 77, 3, 66, 55, 
-                         1, 19, 37, 88, 8, 97, 25, 50, 75, 61, 49 
+        int[] anArray = {29, 14, 15, 9, 33, 76, 12, 99, 7, 39, 44, 1, 5,
+                         11, 71, 88, 43, 18, 91, 9, 55, 76, 68, 48,54 
                         };    
         
         // Numbers to find in the array
-        int[] numbersToSearchFor = {25, 30, 50, 75, 92};
+        int[] numbersToSearchFor = {33, 30, 91, 75, 68};
         
         ArrayHandler myArrayHandler = new ArrayHandler(anArray);
         
